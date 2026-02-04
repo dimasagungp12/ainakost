@@ -363,7 +363,7 @@ export const faq = [
     id: 1,
     eventKey: 0,
     title: "Apa saja fasilitas yang tersedia di Aina Kost?",
-    desc: "Fasiltas yang kami berikan Wifi,Kipas angin,cermin,lemari pakaian, tv kabel, kamar mandi bersama dan dapur bersama untuk memasak",
+    desc: "Fasiltas yang kami berikan Wifi,Kipas angin,cermin,lemari pakaian, tv kabel, kamar mandi bersama dan dapur bersama untuk memasak, sound karaoke.",
   },
   {
     id: 2,
@@ -399,7 +399,7 @@ export const faq = [
     id: 7,
     eventKey: 6,
     title: "Apakah Wifi bisa berselancar dengan kencang saat digunakan?",
-    desc: "Wifi dengan kecepatan 30mbps sangat cukup kuat untuk aktifitas internet di Kost.",
+    desc: "Wifi cukup kencang untuk aktifitas internet di Kost.",
   },
   {
     id: 8,

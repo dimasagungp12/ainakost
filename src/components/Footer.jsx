@@ -8,19 +8,29 @@ const Footer = () => {
       <Row className='d-flex justify-content-between'> 
         <Col lg="5">
           <h3 className='fw-bold'>Aina Kost</h3>
-          <p className='desc'>Penginapan impian Anda. Kenyamanan dan pengalaman tak terlupakan. Temukan kost Anda bersama kami. Selamat datang di Aina Kost.</p>
-          <div className='no mb-1 mt-4'>
-            <Link className='text-decoration-none'>
-              <i className='fa-brands fa-whatsapp'></i>
-              <p className='m-0'>+62 822-1163-3891</p>
-            </Link>
-          </div>
-          <div className='mail'>
-            <Link className='text-decoration-none'>
-              <i className='fa-regular fa-envelope'></i>
-              <p className='m-0'>ainaakost@gmail.com</p>
-            </Link>
-          </div>
+          <p className='desc'>Silahkan klik nomer WhatsApp atau Facebook di bawah ini untuk langsung menghubungi admin.</p>
+          <div className="no mb-1 mt-4">
+  <a href="https://wa.me/6282211633891"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-decoration-none">
+    <i className="fa-brands fa-whatsapp"></i>
+    <p className="m-0">+62 822-1163-3891</p>
+  </a>
+</div>
+
+<div className="mail">
+  <a
+    href="https://www.facebook.com/AinaKost"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-decoration-none"
+  >
+    <i className="fa-brands fa-facebook"></i>
+    <p className="m-0">facebook.com/AinaKost</p>
+  </a>
+</div>
+
         </Col>
         <Col className='d-flex flex-column col-lg-2 col mt-lg-0 mt-5'>
           <h5 className='fw-bold'>Menu</h5>
@@ -40,7 +50,7 @@ const Footer = () => {
             <i className='fa-brands fa-tiktok'></i>
             <i className='fa-brands fa-whatsapp'></i>
             <i className='fa-brands fa-instagram'></i>
-            <i className='fa-brands fa-youtube'></i>
+            <i className='fa-brands fa-facebook'></i>
           </div>
         </Col>
       </Row>
