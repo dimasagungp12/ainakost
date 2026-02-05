@@ -363,7 +363,7 @@ export const faq = [
     id: 1,
     eventKey: 0,
     title: "Apa saja fasilitas yang tersedia di Aina Kost?",
-    desc: "Fasiltas yang kami berikan Wifi,Kipas angin,cermin,lemari pakaian, tv kabel, kamar mandi bersama dan dapur bersama untuk memasak, sound karaoke.",
+    desc: "Fasilitas yang kami berikan Wifi, Kipas angin, cermin, lemari pakaian, kamar mandi bersama dan dapur bersama untuk memasak, karaoke.",
   },
   {
     id: 2,

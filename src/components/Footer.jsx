@@ -10,12 +10,14 @@ const Footer = () => {
           <h3 className='fw-bold'>Aina Kost</h3>
           <p className='desc'>Silahkan klik nomer WhatsApp atau Facebook di bawah ini untuk langsung menghubungi admin.</p>
           <div className="no mb-1 mt-4">
-  <a href="https://wa.me/6282211633891"
+  <a
+    href="https://wa.me/6282211633891"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-decoration-none">
+    className="btn d-inline-flex align-items-center gap-2 btn-whatsapp"
+  >
     <i className="fa-brands fa-whatsapp"></i>
-    <p className="m-0">+62 822-1163-3891</p>
+    <span>WhatsApp</span>
   </a>
 </div>
 
@@ -24,10 +26,10 @@ const Footer = () => {
     href="https://www.facebook.com/AinaKost"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-decoration-none"
+    className="btn d-inline-flex align-items-center gap-2 btn-facebook"
   >
     <i className="fa-brands fa-facebook"></i>
-    <p className="m-0">facebook.com/AinaKost</p>
+    <span>Facebook</span>
   </a>
 </div>
 

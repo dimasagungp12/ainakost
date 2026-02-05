@@ -43,11 +43,11 @@ const NavbarComponent = () => {
           })}
           </Nav>
 
-          <div className='text-center'>
+          {/* <div className='text-center'>
               <button className='btn btn-outline-danger rounded-1' onClick={handleLocationClick}>
                 Lokasi
               </button>
-            </div>
+            </div> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

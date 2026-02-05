@@ -28,7 +28,15 @@ const HomePage = () => {
               </h1>
               <p className='mb-4 animate__animated animate__fadeInUp animate__delay-1s'>Selamat datang di Aina Kost, Kost nyaman dan terjangkau untuk hunian sejati. Temukan kenyamanan di sini!</p>
               <button className='btn btn-danger btn-lg rounded-1 me-2 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-1s' onClick={() => navigate("/Room")}>Lihat Kamar</button>
-              <button className='btn btn-outline-danger btn-lg rounded-1 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-1s'>Lihat Promo</button>
+              <a
+  href="https://www.google.com/maps/place/PWMC%2BF22+Aina+Kost,+Jl.+Asoka+1,+Marga+Rahayu,+Kec.+Lubuk+Linggau+Sel.+II,+Kota+Lubuklinggau,+Sumatera+Selatan+31625/data=!4m2!3m1!1s0x2e30e7d5d72519fd:0x33bd0306f48e653"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="btn btn-danger btn-lg rounded-1 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-1s">
+    Lihat Lokasi
+  </button>
+</a>
             </Col>
             <Col lg="6" className='pt-lg-0 pt-5'>
               <img src={HeroImage} alt='hero-img' className='animate__animated animate__fadeInUp'/>
